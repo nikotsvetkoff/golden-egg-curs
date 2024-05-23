@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +10,111 @@
     <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    <a href="#">
-        <svg>
-            <use xlink:href="img/sprite-icons.svg#facebook"></use>
-        </svg>
-    </a>
-   
+<div class="wraper">
+
+<section class="home">
+    <img class="home__img" src="img/dish.jpg" alt="image goold egg">
+ 
+    <div class="home__container">
+        <div class="container">
+            <nav class="top-menu">
+                <ul class="top-menu__list">
+                    <li class="top-menu__item"><a href="#about">Despre</a></li>
+                    <li class="top-menu__item"><a href="#teaam">Echipa</a></li>
+                    <li class="top-menu__item"><a href="#order">Comandă</a></li>
+                    <li class="logo"><img src="img/logo.png" alt="logo"></li>
+                    <li class="top-menu__item"><a href="#menu">Meniu</a></li>
+                    <li class="top-menu__item"><a href="#events">Serbări</a></li>
+                    <li class="top-menu__item"><a href="#contacts">Contacte</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container home__container-center">
+            <div class="time-work">Mon - Fri: 8 - 22, Sat - Sun: 9 - 24</div>
+            <div class="home__text">
+                <h6>RESTAURANT</h6>
+                <h1>GOLDEN EGG</h1>
+                <div class="home__btns">
+                    <a href="#order" class="btn-order">Comandă masă</a>
+                    <a href="#about">Despre restaurant</a>
+                </div>
+                <a href="#about" class="arrow__about">
+                    <svg>
+                        <use xlink:href="img/sprite-icons.svg#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="socials">
+                <a href="#" target="_blank">
+                    <svg>
+                        <use xlink:href="img/sprite-icons.svg#facebook"></use>
+                    </svg>
+                </a>
+                <a href="#" target="_blank">
+                    <svg>
+                        <use xlink:href="img/sprite-icons.svg#twitter"></use>
+                    </svg>
+                </a>
+                <a href="#" target="_blank">
+                    <svg>
+                        <use xlink:href="img/sprite-icons.svg#instagram"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="container about__container">
+            <div class="about__text">
+                <h2>Despre restaurant</h2>
+                <p class="intro">
+                    Atmosfera magică, serviciul impecabil, interiorul rafinat și, cel mai important, o selecție bogată de mâncăruri delicioase de o calitate excelentă - acestea sunt caracteristicile care atrag oaspeții la restaurantul nostru
+                </p>
+                <p>
+                    Chelnerii acestei instituții cunosc toate subtilitățile gătitului, le vor spune oaspeților cele mai potrivite feluri de mâncare pentru ei. Clienții obișnuiți sunt bine cunoscuți aici, satisfăcând cu pricepere gusturile lor.
+                </p>
+                <p>
+                    Restaurantul este completat în mod ideal de o cafenea confortabilă situată la parter. O ceașcă de cafea uimitoare și dulciuri de la un bucătar local de patiserie vă va încărca cu veselie și energie pozitivă.
+                </p>
+            </div>
+            <div class="about__img">
+                <img src="img/about-img.jpg" alt="image">
+                <div class="circle">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="team" id="team">
+    <div class="container">
+        <h6>ECHIPA NOASTRA</h6>
+    </div>
+    <div class="container team__container">
+        <div class="team__img">
+            <img src="img/team-img.jpg" alt="image">
+            <div class="circle">
+            </div>
+    </div>
+    <div class="team__text">
+        <h2>BUCATAR-SEF</h2>
+        <p class="intro">
+            Bucătarul nostru cu înaltă calificare este responsabil pentru selecția produselor și pregătirea mâncărurilor delicioase. Mâncărurile din spectacolul său se transformă în adevărate capodopere. Nimeni nu va rămâne indiferent la o astfel de combinație de neegalat.
+        </p>
+        <p>
+            Vrem să mulțumim fiecăruia dintre vizitatorii noștri cu munca noastră. Garantăm tuturor clienților că timpul petrecut în unitatea noastră se va distinge printr-o căldură deosebită și un gust deosebit.
+        </p>
+    </div>
+</section>
+
+   </div><!--end wraper-->
 <script src="js/swiper.min.js"></script>
 </body>
 </html>
